@@ -19,4 +19,6 @@ I visualized the performance summary of Facebook ad campaigns using Google Sheet
      order by K, B"; \
      -1) \
  ✅ A custom legend is used for the charts.\
- ✅ Candlestick chart colors adjusted with Apps Script (not directly adjustable in chart settings).
+ ✅ Candlestick chart colors adjusted with Apps Script (not directly adjustable in chart settings).  
+
+ Link: [https://docs.google.com/spreadsheets/d/1SPnbiE7IHTZ6u0U26UlR4fqKciNLhHGld8tn6etdtoE/edit?usp=sharing]

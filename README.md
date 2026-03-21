@@ -59,6 +59,33 @@ This project provides a comprehensive analysis of Facebook advertising performan
  ✅ A custom legend is used for the charts.  
  ✅ Candlestick chart colors adjusted with Apps Script (not directly adjustable in chart settings).  
 
+ <details>
+ 
+ <summary>Apps Script</summary>
+ 
+ ```python
+ function setCandlestickColors() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Dashboard_laptop");
+  const charts = sheet.getCharts();
+  
+  // chart number on sheet
+  const chart = charts[6];
+  
+  const newChart = chart.modify()
+    .setOption('series', {
+      0: {color: '#556B2F'},  
+      1: {color: 'red'}     
+    })
+    .build();
+  
+  sheet.updateChart(newChart);
+}
+```
+  
+ </details>
+
+                                                               
+                                                    
 ## 🔍 Project Insights
 
 * <b>Revenue Impact:</b> Total advertising efforts resulted in $146,986 in revenue from a total spend of $115,287, proving the overall profitability of the marketing mix across the year.
@@ -66,5 +93,5 @@ This project provides a comprehensive analysis of Facebook advertising performan
 * <b>Engagement Metrics:</b> The "Discounts" category demonstrated superior audience engagement with the highest CTR of 2.508% and the lowest CPC of $0.08, indicating highly relevant creative content for the target audience.
 * <b>Spending Efficiency:</b> While the "Wholesale" campaign had the highest CPM ($4.89), its ROMI remained stable at 122.8%, suggesting that higher placement costs in this segment are balanced by conversion value.
 * <b>Seasonal Scaling:</b> A significant scale-up in ad spend was observed starting in May 2021, peaking in July with a monthly investment of $20,723, which successfully maintained a stable ROMI throughout the high-spend period.
-* <b>Consistency:</b> The "Daily ROMI Distribution" shows that most campaigns maintained tight performance clusters, though "Promos" and "Trendy" exhibited higher volatility alongside their higher returns.
+* <b>Consistency:</b> The "Daily ROMI Distribution" shows that most campaigns maintained tight performance clusters, though "Promos" exhibited higher volatility alongside its higher returns.
    

@@ -1,14 +1,14 @@
 # 2021 Facebook Ad Campaigns - Google_Sheets_Project
 
-## Project Overview
-I visualized the performance summary of Facebook ad campaigns using Google Sheets. This project aimed at both analyzing key marketing metrics and improving data visualization and formula proficiency in Google Sheets.
+## 📌 Project Overview
+This project provides a comprehensive analysis of Facebook advertising performance throughout 2021, focusing on Return on Marketing Investment (ROMI) across various campaign categories. By evaluating metrics such as CPC, CPM, and CTR, the study identifies the efficiency of different marketing strategies, from brand awareness to wholesale promotions. The dashdoard visualizes the relationship between monthly ad spend and revenue generation, offering a data-driven view of campaign scalability and seasonal performance trends.
 
 ## Dashboard
 ![2021 Facebook Campaign ROMI](https://github.com/user-attachments/assets/eefcee40-77ba-4630-a02c-16a4fe15a2e7)
 
  👉 [Link to Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1SPnbiE7IHTZ6u0U26UlR4fqKciNLhHGld8tn6etdtoE/edit?usp=sharing)
  
- ## Core technical methods used:
+ ## ⚒️ Core technical methods used:
  ✅ Data aggregation handled fully through the QUERY function (pivot tables only for KPIs).\
  ✅ Filtering applied via the WHERE clause inside the query (no slicers). For example:
  * Calculate the total revenue, spend, clicks, and impressions for each advertising campaign in each month, , with the ability to filter by a selected time period and advertising campaign.
@@ -59,4 +59,7 @@ I visualized the performance summary of Facebook ad campaigns using Google Sheet
  ✅ A custom legend is used for the charts.  
  ✅ Candlestick chart colors adjusted with Apps Script (not directly adjustable in chart settings).  
 
+## 🔍 Project Insights:
+
+* <b>Top Performing Campaigns:</b> The "Trendy" and "Promos" campaigns achieved the highest efficiency, with ROMI reaching 188.4% and 176.1% respectively, significantly outperforming the overall average of 127.5%.
 

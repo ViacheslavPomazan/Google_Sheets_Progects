@@ -1,4 +1,4 @@
-# 2021 Facebook Ad Campaigns - Google_Sheets_Project
+# 2021 Facebook Ad Campaigns - Google_Sheets_project
 
 ## 📌 Project Overview
 This project provides a comprehensive analysis of Facebook advertising performance throughout 2021, focusing on Return on Marketing Investment (ROMI) across various campaign categories. By evaluating metrics such as CPC, CPM, and CTR, the study identifies the efficiency of different marketing strategies, from brand awareness to wholesale promotions. The dashdoard visualizes the relationship between monthly ad spend and revenue generation, offering a data-driven view of campaign scalability and seasonal performance trends.
